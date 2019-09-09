@@ -1,0 +1,52 @@
+
+#change{
+    background-image: url(../../src/assets/indexbg.jpg);
+    margin: auto;
+    width: 80%;
+    height:70%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+#logo-change{
+    width: 300px;
+    height:250px;
+    margin:120px auto;;
+    background-image: url(http://139.9.80.230:8081/static/image/382533495014851617_middle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#change span{
+    display: block;
+}
+#change input{
+    display: inline;
+    opacity: 0;
+ 
+}
+#change-font{
+    height: 25px;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 100px;
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+    font-size: 1.275rem;
+    color: #666666;
+
+}
+#change-font div{
+    border: 0.0625rem dashed black;
+}
+#change-font input{
+    display: block;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-image: url(../../src/assets/indexbg.jpg);
+    color: rgb(102, 102, 102);
+    
+}

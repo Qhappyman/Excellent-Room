@@ -1,0 +1,9 @@
+#change-middle{
+    height: 72%;
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    background-image: url(../../src/assets/移动端.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

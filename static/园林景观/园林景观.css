@@ -1,0 +1,82 @@
+#top-picture,#mid-picture,#bottom-picture{
+    position: absolute;
+    left: 6%;
+}
+#top-picture-top,#mid-picture-top,#bottom-picture-top{
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+    color: #3d455a;
+    font-weight: 800;
+    width: 89%;
+    height: 20%;
+    background-color: white;
+    line-height: 50px;
+    padding-left: 15px;
+}
+#top-picture-bottom,#mid-picture-bottom,#bottom-picture-bottom{
+    width: inherit;
+    height: 78%;
+    background-color: white;
+}
+#bottom-picture-top{
+    height: 43%;
+}
+#bottom-picture-bottom{
+    height: 55%;
+}
+#top-picture{
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    height: 300px;
+}
+#mid-picture{
+    position: absolute;
+    top: 43%;
+    width: 90%;
+    height: 300px;
+}
+#bottom-picture{
+    position: absolute;
+    top: 76%;
+    width: 90%;
+    height: 150px;
+}
+#url-input{
+    width: 40%;
+    height: 33%;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+#button-input{
+    display: inline-block;
+    background-color: dodgerblue;
+    width: 5%;
+    height: 33%;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    left: 8%;
+    border-radius: 5px;
+}
+
+#top-picture-bottom,#mid-picture-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1 1 1 1 1;
+}
+#top-picture-bottom,#mid-picture-bottom div{
+    display: flex;   
+    border:none;
+}
+#top-picture-bottom img{
+    width: 220px;
+    height: 200px;   
+}
+#mid-picture-bottom img{
+    width: 220px;
+    height: 200px;    
+}

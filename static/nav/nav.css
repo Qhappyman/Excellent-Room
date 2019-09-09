@@ -1,0 +1,49 @@
+
+#picture{
+    height: 80px;/*后续加入图片*/
+    margin: 20px 0;
+    background-image: url(../../src/assets/navlogo.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ul li{
+    margin: 20px 5px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+#nav{
+    font-size:20px;
+    color: white;
+    height: 100%;
+    width: 10%;
+    background-color: #1B233A;
+    position: fixed;
+    padding-left: 15px;/*后续添加li图片调整padding*/
+}
+.arrow svg{
+    width: 15px;
+    height:15px;
+}
+.arrow svg:hover{
+    cursor: pointer;
+}
+.list{
+    display: none;
+}
+.list ul li{
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+}
+li{
+    height: 40px;
+}
+.list ul li a{
+    font-size: 15px;
+}
+

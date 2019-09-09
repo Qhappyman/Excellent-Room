@@ -1,0 +1,41 @@
+#change-middle{
+    position: relative;
+    width: 80%;
+    height: 70%;
+    margin: 5% auto;
+    background-image: url(../../src/assets/企业文化background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#change-picture{
+    width: 80%;
+    height: 75%;
+    position: absolute;
+    margin: 5% 10%;
+    background-image: url(../../src/assets/发展历程.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.history-change{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    position: absolute;
+}
+.history-change:hover{
+    cursor: pointer;
+}
+#history-change1{
+    bottom: 7%;
+    left: 15%;
+}
+#history-change2{
+    bottom:7%;
+    left: 25%;
+}
+input{
+    opacity: 0;
+}

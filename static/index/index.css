@@ -1,0 +1,76 @@
+
+#main{
+    width: 90%;
+    height:80%;
+    background-color: white;
+    border:none;
+    margin: auto;
+    position: relative;
+}
+#change{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    border:1px solid black;
+    border:none;
+}
+input{
+    display: inline;
+    opacity: 0;
+}
+#change-top{
+    height: 60%;
+    border-bottom: 1px solid black;
+    background-image: url(../../src/assets/indexbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:none;
+}
+#img{
+    width:40%;
+    height: 80%;
+    margin:auto;
+    background-image: url(../../src/assets/indexlogo.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+#change-bottom{
+    height:40%;
+}
+#change-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#change-bottom div{
+    height: 200px;
+    width:140px;
+}
+#change-bottom div img{
+    margin: 10px;
+    height: 45%;
+    width: 60%;
+}
+#change-bottom div p{
+    display: block;
+    width: 70%;
+}
+#define{
+    float: right;
+}
+.descript{
+    font-size: 1.46484rem;
+    color: #666666;
+    font-weight: 600;
+    line-height: 50px;
+}
+.change-style{
+    display: block;
+    height:15px;
+    width:50px;
+    background:white;
+    border:none;
+}
+.change-style:hover{
+    cursor: pointer;
+}

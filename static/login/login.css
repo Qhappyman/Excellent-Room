@@ -1,0 +1,40 @@
+#background{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../../src/assets/login.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#login{
+    position: absolute;
+    top: 10%;
+    margin: 0 40%;
+    background-color: azure;
+    height: 400px;
+    width: 300px;
+}
+#use{
+    font-size: 23px;
+    color: cornflowerblue;
+    
+}
+#username,#keyword,#login-but{
+    width: 90%;
+    height: 35px;
+}
+#login-but{
+    background-color:blue;
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#login-top{
+    text-align: center;
+    margin: 25px 30px;
+}
+#login-mid{
+    margin:30px 25px;
+}
+#login-bottom{
+    margin:50px 25px;
+}

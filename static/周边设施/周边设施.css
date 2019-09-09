@@ -1,0 +1,26 @@
+#change{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    border:1px solid black;
+    border:none;
+}
+#change-top{
+    height: 100%;
+    border-bottom: 1px solid black;
+    background-image: url(../../src/assets/周边设施.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:none;
+}
+#main{
+    width: 90%;
+    height:80%;
+    background-color: white;
+    border:none;
+    margin: auto;
+    position: relative;
+}
+input{
+    opacity: 0;
+}
